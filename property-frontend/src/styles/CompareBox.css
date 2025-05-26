@@ -1,0 +1,71 @@
+.compare-box {
+  display: flex;
+  gap: 20px;
+  margin: 20px auto;
+  justify-content: center;  /* ✅ Center horizontally */
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.compare-item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 250px;
+  background: white;
+}
+
+.compare-item.placeholder {
+  background-color: #f3f3f3;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.compare-box-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.compare-item {
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  padding: 20px;
+  width: 300px; 
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compare-item.placeholder {
+  background-color: #f0f0f0;
+  color: #888;
+  font-weight: 500;
+  text-align: center;
+}
+
+.compare-clear-button {
+  align-self: center;
+  margin-left: 20px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.compare-clear-button:hover {
+  color: darkred;
+}
+.clear-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 16px;
+}
